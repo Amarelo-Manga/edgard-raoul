@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+.n2-ss-align.n2-ss-slider-align-visible {overflow: auto !important;}
+/*fontes*/
+body{font-family: 'Josefin Slab', serif; font-size:18px;}
+h2,.fonte-titulo,.titulo-negrito{font-family: 'Proxima Nova'; font-weight: normal;}
+.fonte-titulo,.titulo-negrito{color: #a2146e; font-size: 40px;}
+.titulo-negrito{font-weight: bolder; }
+.fonte-titulos{color: #510a37;}
+.fonte-texto{font-family:'Josefin Slab';}
+/*Menu*/
+.bg-roxo{border-color: #a1146d !important;}
+.collapse.show {margin-left: 2rem;}
+a.navbar-brand {position: absolute; top: 0;}
+li.menu-item a { padding: 0px 17px; font-family:'Proxima Nova'; color:#fff}
+li.menu-item:hover, .btn-enviar{background-color:#a2146e;}
+li.menu-item:hover a{text-decoration: none;}
+li.ajude, li.linkedin{border:1px solid;margin-left: 5px;padding: 3px 10px 0px;margin-top: -5px;}
+a.border-roxo{border-color: #a2146e !important; margin-left: 5px;}
+li.ajude a:after{content:"\f004"; font: normal normal normal 14px/1 FontAwesome;color: #a1146d;margin-left:7px;}
+li.ajude:hover a:after{color: #510a37;}
+li.linkedin a span{display: none;}
+li.linkedin a:after{  content:"\f0e1";  font: normal normal normal 14px/1 FontAwesome;font-size: 1em;}
+/*Slideshow*/
+.carousel-item img{width:100%;}
+.carousel-caption {color: #FFFFFF; background-color: #a2146e; padding: 50px 50px; width: 400px;  left: 45%;  top: 50%; height: 200px;}
+.carousel-caption-1{ width: 204px;  left: 67%;  top: 3%; height: auto; position: absolute;}
+/*About*/
+#about{background-color: #FFFFFF; margin-top: -210px; padding: 0; position: relative; z-index:10000000;}
+#txt_about_raoul{padding:5rem;}
+#img_padding{background-image: url(img/edgard_raoul_com_pano.jpeg); background-position: center; }
+div#txt_descri {padding: 0;}
+/*Content*/
+#bg_content { background: #ecebeb; padding-top: 129px; margin-top: -75px;  width: 98%;}
+.align_text_descri{float: right;}
+#img_padding{ padding: 0;  display:flex;/*left: 15px;*/}
+#img_padding img{ width:100%;}
+.frase{ margin-top:10rem; font-size: 30px; background-color:#FFFFFF; width: 100%; padding: 5rem; margin: 10rem 0px -10px; display: table;}
+#img_comecoou{padding: 0; background-image:url(assets/img/edgard_raoul_mala.jpg); background-position: right; background-repeat: no-repeat; background-size:cover;}
+#tudo_comecou{background-color:#510a37; color: #FFFFFF; padding: 10rem 10px; }
+#cont_tudo_comecou{background-color: #a2146e; color:#FFFFFF; padding: 5rem 0px;}
+#galeria{padding:5rem 2rem;}
+#noticias{padding:5rem 2rem;}
+.news{background:#ecebeb; margin-top: 40px !important; display: table; }
+.txt{float:left; margin: 6px !important; font-size:15px;}
+.img_news{float:left; height: 150px !important; width: 150px !important;}
+.readmore{background-color:#a2146e; color:#ffffff; padding: 13px 10px !important;}
+a.readmore:hover {color: #fff;text-decoration: none;}
+.margem-btn{margin: auto; display: table;}
+#schedule_pay{background-image: url(assets/img/back_footer.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; padding: 20px; color:#FFFFFF;}
+.fundo-rodape{background-color:#a2146e;}
+.btn, .form-control{border-radius: 0;}
+.custom-control-input:checked~.custom-control-indicator {color: #fff;background-color: transparent;border: 2px solid #f0f;}
+form{margin-left: -15px;}
+#galeria{padding: 5rem 1rem !important;}
+figure.gallery-item{width:auto; margin: 0;}
+div#gallery-1{display:flex; align-content:flex-start !important; flex-wrap:wrap !important; width:500px; margin-bottom:15px;}
+input.wpcf7-form-control.wpcf7-submit{background: #a2146e;border: none;color: #fff;}
+#player {width: 88% !important;margin-top: -20px;}
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video{width:100% !important; height:100% !important;}
+.galeria-de-fotos{padding-left:0px !important; padding-right:0px !important;}
+div#gallery-2 {display: flex; flex-flow: row wrap; margin-top: 30px; margin-bottom: 30px; padding-left: 20px;}
+.entry-content p {margin-top: 2rem; margin-left:20px;}
+h1.entry-title {padding: 0 1.9rem;}
+aside { padding-left: 1.9rem !IMPORTANT;}
+article header{background-color: #7f1e5b;color: #fff;line-height: 70px;padding: 30px 0px 15px;}
+#panel-243-1-0-0 h3.widget-title {padding-left: 30px; padding-right: 30px;}
+#panel-243-2-0-0 h3.widget-title {padding-left: 30px; padding-right: 30px;}
+.fotos-eventos{padding: 0; background-size: cover; background-position: center center; background-repeat: no-repeat; height:590px;}
+.logo-mobile {margin-top:9px;width: 160px;}
+@-moz-document url-prefix() {.logo-mobile {margin-top: -7%;width: 160px;}}
+.entry-title{padding-top: 45px !important;}
+.box{}
+.box:hover .efeito{transform: translateY(0); opacity:1;}
+.box:hover .efeito p { opacity: 1;}
+.box:hover .efeito:before, .box:hover .efeito:after {animation: goinIn .2s .3s ease-in-out forwards;}
+.efeito{width: auto;height: 100%;background: rgba(0, 0, 0, 0.5);position: absolute;top: 0;left: 0;right: 0;
+bottom: 0;transition: .2s ease-in-out;overflow: hidden; opacity:0;}
+.efeito p {font-variant: small-caps;color: #fff;position: absolute;left: 5%; bottom: 15%;font-size: 40px;
+font-family: 'Arial';opacity: 0;transition: .2s .3s ease-in-out;}
+/*.efeito:before, .efeito:after {content: "";width: 90%;height: 2px;background: #fff;position: absolute;}
+.efeito:before {top: 3%;transform: translateX(-120%);}
+.efeito:after {bottom: 3%;transform: translateX(120%);}*/
+@keyframes goinIn {
+  to {
+    transform: translateX(5%);
+  }
+}
+.pagina-nao-encontrada{background-image:url(assets/img/edgard.jpg);background-repeat:no-repeat;background-size:cover; height:76vh;}
+.texto-nao-encontrado{margin-left: 20%; font-size: 50px; margin-top: 100px;}
+.sub-nao-encontrado{margin-left: 20%;font-size: 30px;}
+.btn-nao-encontrado{margin-left: 20%;margin-bottom: 400px;font-size: 20px; color:#fff;}
+ a.btn-nao-encontrado:hover{text-decoration:none; color:#fff;}
+.logo-edgard{width:200px; height:auto; float:right;margin-top: 125px; margin-right: 26px;}
+.btn-voltar{margin-bottom:100px;}
+.posicionando-btn{float:none !important;}
+.texto-central{margin: 10rem auto 3rem; font-size:25px; width: 40%;}
+@media (max-width:1400px){#about{margin-top: 0px !important;} }
+@media (max-width:1199px){#txt_about_raoul {padding: 4rem;}#img_padding{background-position: 40% 50%;}.readmore{padding: 10px 10px; float: right; clear: both;}.img_news{width: 50%; height:auto;}.news{width: 90%;}.txt{margin: 9px; float: left; font-size: 0.85rem;}.fundo-mobile{background-color:rgba(0,0,0,0.5);height: 76vh;}
+.navbar-light .navbar-toggler{border-color:transparent !important;}
+span.navbar-toggler-icon{background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;}
+ul#menu-header {
+    font-size: 13px;}	
+}	
+
+
+/*Calendar Rodape Index*/
+#palestra .eme-calendar-table{background:#fff;color:#4f4f4f;}
+#palestra .month_name{background: #a1146d;text-transform: uppercase;color:#fff;font-weight: 400;}
+#palestra .days-names{background:#e7e7e7;color:#525252;}
+table.fullcalendar a.next-month, table.smallcalendar a.next-month, div.emeDivTableHead a.next-month{color:#fff;}
+table.fullcalendar a.prev-month, table.smallcalendar a.prev-month, div.emeDivTableHead a.prev-month{color:#fff;}
+table.eme-calendar-table td{padding: 6px 15px 2px;}
+table.eme-calendar-table td.eventful a, table.eme-calendar-table td.eventful-today a, div.eventful-today a, div.eventful a{color:#fd1c16;}
+#palestra  a.btn-enviar{margin:10px 0px;}
+#palestra  a.btn-enviar:after, a.btn-nao-encontrado:after{font: normal normal normal 14px/1 FontAwesome;font-size: inherit;content:"\f0da";margin-left: 10px;vertical-align: text-bottom;}
+
+/*Calendar Page Submit Event*/
+#new_event_form{margin:40px 0px;}
+#new_event_form form{margin-left:0px;}
+form#new_post .form-group label{font-family: 'Proxima Nova';color:#a2146e;font-size: 0.9em;font-weight: 600;padding: 0;margin: 0px;}
+form#new_post .form-group{margin-bottom: 0.6em;}
+form#new_post label small, form#new_post legend small,form#new_post #event_start legend small, form#new_post #event_end legend small{font-size:12px;}
+form#new_post > div, form#new_post > fieldset{margin-bottom: 0.7em;}
+form#new_post legend{color:#a2146e;font-size: 1.2em;font-weight: bold;margin: 0px;}
+form#new_post #submit{background: none;border:0px;color:#fff;padding: 10px;cursor: pointer;}
+form#new_post .submit{background-color:#a2146e; border:0px;color:#fff; display: inline-block;}
+form#new_post .submit:after{font: normal normal normal 14px/1 FontAwesome;font-size: inherit;content:"\f0da";margin-left: -40px;vertical-align: text-bottom;display: inline-block;}
+form#new_post fieldset#dates{border:0px;}
+form#new_post fieldset #event_start, form#new_post fieldset #event_end{margin: 0px;width: 40%;border:0px;}
+form#new_post fieldset #event_start{border-right:1px solid #a2146e;}
+form#new_post fieldset #event_end{margin-left:5%;}
+form#new_post #event_start label, form#new_post #event_end label{width: 15%;}
+form#new_post #event_start input, form#new_post #event_end input{width: 65%;}
+form#new_post #event_start .form-group, form#new_post #event_end .form-group{margin-bottom: 10px;}
+
+
+/*Calendar Page Eventos*/
+.eme-calendar-full
+.eme-calendar-full .eme-calendar-table{background:#fff;color:#4f4f4f;}
+.eme-calendar-full .month_name{background: #a1146d;text-transform: uppercase;color:#fff;font-weight: 400;}
+.eme-calendar-full .days-names{background:#e7e7e7;color:#525252;}
+.eme-calendar-full table.fullcalendar a.next-month, table.smallcalendar a.next-month, div.emeDivTableHead a.next-month{color:#fff;}
+.eme-calendar-full table.fullcalendar a.prev-month, table.smallcalendar a.prev-month, div.emeDivTableHead a.prev-month{color:#fff;}
+.eme-calendar-full table.eme-calendar-table td{padding: 6px 15px 2px;}
+.eme-calendar-full table.eme-calendar-table td.eventful a, table.eme-calendar-table td.eventful-today a, div.eventful-today a, div.eventful a{color:#fd1c16;}
+.eme-calendar-full 	table.fullcalendar td{padding: 10px !important;}
+.eme-calendar-full table.eme-calendar-table td.eventful a, table.eme-calendar-table td.eventful-today a, div.eventful-today a, div.eventful a{color: #a0146c;font-size: 1.2em;}
+.eme-calendar-full table.fullcalendar td{border: 1px solid #a0146c;}
+#locations-pagination-top a, #locations-pagination-bottom a, #events-pagination-top a, #events-pagination-bottom a{background-color: #a2146e;color: #fff;padding: 2px 10px;}
+#events-pagination-top{display: none;}
+.eme_events_list a{color:#a1146d;}
+/*Calendar Cadastrado com Sucesso*/
+#post-403 strong{font-size: 2em; color: #500a37;}
+ul.eme_events_list {padding: 2rem;}
+@media (max-width: 991px) {
+ul.eme-calendar-day-event {display: none;}
+ul#menu-header {font-size:18px;}
+#txt_about_raoul {padding: 3rem;}
+#img_padding{height: 500px; background-repeat: no-repeat; width: auto; top: -40px; background-position: 50% 50%;}#img_comecoou{height: 500px;}.border{border: none !important;}#bg_content{width: 100%;}.alinhamento{margin-left: 0;}
+.img_news {width: 100% !important; padding-bottom: 45px; margin-top: -27px; height:auto !important;}.txt{font-size: 1.25rem; margin-top: -63px !important; padding-left: 10px;}iframe {margin-bottom: -135px;}	.entry-title {padding-right: 12%;}
+div#gallery2{margin-left: -18px;padding:0;}
+li.ajude, li.linkedin{border:none;margin-left: 0;padding: 0;}
+li.linkedin{margin-bottom: 40px;}
+.logo-mobile {width: 130px;}
+.fundo-mobile{background-color:rgba(0,0,0,0.5);}}
+@media(max-width:767px){
+a.navbar-brand {margin-top: -3%;}
+.carousel-caption{padding: 30px 25px;width: 360px;left: 40%;top: 55%;height: 150px; font-size: 1rem;}.carousel-caption-1{width: 144px; left: 70%;top: 3%;}#noticias {padding: 0rem 2rem;}div#gallery-2{padding-left:0px; margin-left: -15px;}.logo-edgard{margin-top:80px;}}
+@media (max-width: 575px){
+#about{padding-right: 15px; padding-left: 15px; }
+#img_padding{width: 100%; }
+.logo-mobile{width:80%; height: auto;}
+.carousel-caption {padding: 20px 10px;width: 245px;left: 48%;top: 46%;height: 135px;font-size: 0.85rem;}
+#txt_about_raoul {padding: 1rem;}
+#tudo_comecou{padding: 3rem 10px;}
+div#gallery-1{width:auto; margin-left:0rem; }
+table.eme-calendar-table td {padding: 3px 10px 5px;}
+div#navbarNav{margin-left:0px !important;}.menu-item { height: 38px;}.efeito { opacity: 50 !important; border-top: 11px solid #fff; border-bottom: 11px solid #fff;}.texto-central{width:60%;}.pagina-nao-encontrada{background-position:center;}.fundo-mobile{margin-top: -1px;}}
+@media(max-width: 475px){
+.carousel-caption{padding: 17px 0px;width: 215px;left: 50%;top: 46%;height: 100px; font-size: 0.75rem;}
+div#gallery-1{width:100%;}
+iframe{margin-bottom: -30%;}
+.entry-content p{margin-left:0;}
+}
+@media(max-width:425px){
+	.frase{font-size: 23px; padding: 3rem;}
+	a.navbar-brand{margin-top: -4%}
+	.img_padding{background-position: 40% 50%;}
+	.news {width: 100%;}
+	.logo-mobile{width:75%; height: auto;    margin-top: -5%;}
+	.frase{margin: 10rem 0px 14px;}
+	.navbar-toggler{margin-bottom: 40px;}
+	#img_comecoou{background-position: center;}
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 300px;}
+div#gallery{margin-left: 10%;}
+}
+@media(max-width:375px){
+	div#gallery-1{margin-left:0; }
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 240px;}
+	.logo-mobile{width:65%;}
+	div#gallery{margin-left: 5%;}
+}
+@media(max-width:320px){
+	.frase{font-size: 23px; padding: 3rem; margin-bottom: 15px;}
+	.logo-mobile{margin-left:-30px; margin-top: 3%;}
+	.navbar-toggler {margin-bottom: 40px;}
+	#img_padding{background-position: 33% 50%;}
+	#img_comecoou{background-position: 56% 50%;}
+	.ml-5{margin-left:2rem !important;}
+	#tudo_comecou{padding: 3rem 10px;}
+	#cont_tudo_comecou{padding: 3rem 0px;}
+	#noticias {padding: 1rem 2rem;}
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 245px;}
+div#gallery-2 {padding-left: 0px;margin-left: -15px;}
+}
+@media(max-width:300px){.frase{font-size: 23px; padding: 2rem; margin-bottom: 15px;}
+.logo-mobile {margin-left: -40px;}button.navbar-toggler.bg-light.collapsed {margin-left: -10px;}
+	}
