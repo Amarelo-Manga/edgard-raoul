@@ -1,4 +1,4 @@
-@charset "UTF-8";body{font-family:'Josefin Slab', serif;font-size:18px;}
+@charset "UTF-8";body{font-family:'Josefin Slab', serif;font-size:16px;}
 h2,.fonte-titulo,.titulo-negrito{font-family:'Proxima Nova';font-weight:normal;}
 .h1, h1{ font-size: 2rem !important;}
 .fonte-titulo,.titulo-negrito{color:#a2146e;font-size:40px;}
@@ -24,7 +24,7 @@ div#txt_descri{padding:0;}
 #img_padding{padding:0;display:flex;}
 #img_padding img{width:100%;}
 .frase{margin-top:10rem;font-size:30px;background-color:#FFFFFF;width:100%;padding:5rem;margin:10rem 0px -10px;display:table;}
-#img_comecoou{padding:0;background-image:url(img/edgard_raoul_mala.jpg);background-position:right;background-repeat:no-repeat;background-size:cover;}
+#img_comecoou{padding:0;background-image:url(img/edgard_raoul_mala.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;}
 #tudo_comecou{background-color:#510a37;color:#FFFFFF;padding:10rem 10px;}
 #cont_tudo_comecou{background-color:#a2146e;color:#FFFFFF;padding:5rem 0px;}
 #galeria{padding:5rem 2rem;}
@@ -38,24 +38,11 @@ div#txt_descri{padding:0;}
 .btn, .form-control{border-radius:0;}
 .custom-control-input:checked~.custom-control-indicator{color:#fff;background-color:transparent;border:2px solid #f0f;}
 form{margin-left:-15px;}
-@media (max-width:1400px){#about{margin-top:0px !important;}
-}
-@media (max-width:1199px){#txt_about_raoul{padding:4rem;}
-#img_padding{background-position:40% 50%;}
-.readmore{padding:10px 10px;float:right;}
-.img_news{width:50%;height:auto;}
-.news{width:90%;}
-.txt{margin:9px;float:left;font-size:0.85rem;}
-}
+@media (max-width:1400px){#about{margin-top:0px !important;}}
+@media (max-width:1199px){#txt_about_raoul{padding:4rem;}#img_padding{background-position:40% 50%;}.readmore{padding:10px 10px;float:right;}.img_news{width:50%;height:auto;}.news{width:90%;}.txt{margin:9px;float:left;font-size:0.85rem;}}
 @media (max-width:991px){#txt_about_raoul{padding:3rem;}
-#img_padding{height:500px;background-repeat:no-repeat;width:auto;top:-40px;background-position:50% 50%;}
-#img_comecoou{height:500px;}
-.border{border:none !important;}
-#bg_content{width:100%;}
-.alinhamento{margin-left:0;}
-.img_news{width:100%;padding-bottom:45px;}
-.txt{font-size:1.25rem;}
-.navbar-light .navbar-toggler{border-color:transparent !important;}
+#img_padding{height:500px;background-repeat:no-repeat;width:auto;top:-40px;background-position:50% 50%;}#img_comecoou{height:500px;}.border{border:none !important;}#bg_content{width:100%;}.alinhamento{margin-left:0;}.img_news{width:100%;padding-bottom:45px;}
+.txt{font-size:1.25rem;}.navbar-light .navbar-toggler{border-color:transparent !important;}
 span.navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;}
 }
 @media(max-width:767px){a.navbar-brand{margin-top:-3%;}
@@ -83,7 +70,7 @@ a.navbar-brand{margin-top:-4%}
 @media(max-width:320px){.frase{font-size:23px;padding:3rem;margin-bottom:15px;}
 .logo-mobile{margin-left:-30px;}
 .navbar-toggler{margin-bottom:40px;}
-#img_padding{background-position:33% 50%;}
+#img_padding{background-position:55% 50%;}
 #img_comecoou{background-position:56% 50%;}
 .ml-5{margin-left:2rem !important;}
 #tudo_comecou{padding:3rem 10px;}
