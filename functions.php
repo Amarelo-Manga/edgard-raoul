@@ -625,3 +625,8 @@ function singles_templates($single_template){
 
 		return $single_template;
 }//end function single noticia
+
+/**
+*Adicionando Banner para Home 
+*/
+require get_parent_theme_file_path('/inc/post-type-banner.php');
