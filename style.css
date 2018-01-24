@@ -2,7 +2,7 @@
 /* CSS Document */
 .n2-ss-align.n2-ss-slider-align-visible {overflow: auto !important;}
 /*fontes*/
-body{font-family: 'Josefin Slab', serif; font-size:18px;}
+body{font-family: 'Josefin Slab', serif; font-size:16px;}
 h2,.fonte-titulo,.titulo-negrito{font-family: 'Proxima Nova'; font-weight: normal;}
 .fonte-titulo,.titulo-negrito{color: #a2146e; font-size: 40px;}
 .titulo-negrito{font-weight: bolder; }
@@ -12,7 +12,7 @@ h2,.fonte-titulo,.titulo-negrito{font-family: 'Proxima Nova'; font-weight: norma
 .bg-roxo{border-color: #a1146d !important;}
 .collapse.show {margin-left: 2rem;}
 a.navbar-brand {position: absolute; top: 0;}
-li.menu-item a { padding: 0px 17px; font-family:'Proxima Nova'; color:#fff}
+li.menu-item a { padding: 0px 16px; font-family:'Proxima Nova'; color:#fff}
 li.menu-item:hover, .btn-enviar{background-color:#a2146e;}
 li.menu-item:hover a{text-decoration: none;}
 li.ajude, li.linkedin{border:1px solid;margin-left: 5px;padding: 3px 10px 0px;margin-top: -5px;}
@@ -25,6 +25,8 @@ li.linkedin a:after{  content:"\f0e1";  font: normal normal normal 14px/1 FontAw
 .carousel-item img{width:100%;}
 .carousel-caption {color: #FFFFFF; background-color: #a2146e; padding: 50px 50px; width: 400px;  left: 45%;  top: 50%; height: 200px;}
 .carousel-caption-1{ width: 204px;  left: 67%;  top: 3%; height: auto; position: absolute;}
+header#top {padding-left: 0px;padding-right: 0px;}
+
 /*About*/
 #about{background-color: #FFFFFF; margin-top: -210px; padding: 0; position: relative; z-index:10000000;}
 #txt_about_raoul{padding:5rem;}
@@ -36,7 +38,7 @@ div#txt_descri {padding: 0;}
 #img_padding{ padding: 0;  display:flex;/*left: 15px;*/}
 #img_padding img{ width:100%;}
 .frase{ margin-top:10rem; font-size: 30px; background-color:#FFFFFF; width: 100%; padding: 5rem; margin: 10rem 0px -10px; display: table;}
-#img_comecoou{padding: 0; background-image:url(assets/img/edgard_raoul_mala.jpg); background-position: right; background-repeat: no-repeat; background-size:cover;}
+#img_comecoou{padding: 0; background-image:url(assets/img/edgard_raoul_mala.jpg); background-position:center; background-repeat: no-repeat; background-size:cover;}
 #tudo_comecou{background-color:#510a37; color: #FFFFFF; padding: 10rem 10px; }
 #cont_tudo_comecou{background-color: #a2146e; color:#FFFFFF; padding: 5rem 0px;}
 #galeria{padding:5rem 2rem;}
@@ -62,7 +64,7 @@ input.wpcf7-form-control.wpcf7-submit{background: #a2146e;border: none;color: #f
 div#gallery-2 {display: flex; flex-flow: row wrap; margin-top: 30px; margin-bottom: 30px; padding-left: 20px;}
 .entry-content p {margin-top: 2rem; margin-left:20px;}
 h1.entry-title {padding: 0 1.9rem;}
-aside { padding-left: 1.9rem !IMPORTANT;}
+aside { padding-left: 1.9rem !IMPORTANT ;}
 article header{background-color: #7f1e5b;color: #fff;line-height: 70px;padding: 30px 0px 15px;}
 #panel-243-1-0-0 h3.widget-title {padding-left: 30px; padding-right: 30px;}
 #panel-243-2-0-0 h3.widget-title {padding-left: 30px; padding-right: 30px;}
@@ -70,6 +72,8 @@ article header{background-color: #7f1e5b;color: #fff;line-height: 70px;padding: 
 .logo-mobile {margin-top:9px;width: 160px;}
 @-moz-document url-prefix() {.logo-mobile {margin-top: -7%;width: 160px;}}
 .entry-title{padding-top: 45px !important;}
+.carousel-item.active {height: 940px;padding-top: 220px;}
+.container-fluid #slideshow{padding-right: 0px; padding-left:0px; }
 .box{}
 .box:hover .efeito{transform: translateY(0); opacity:1;}
 .box:hover .efeito p { opacity: 1;}
@@ -102,8 +106,6 @@ span.navbar-toggler-icon{background-image: url("data:image/svg+xml;charset=utf8,
 ul#menu-header {
     font-size: 13px;}	
 }	
-
-
 /*Calendar Rodape Index*/
 #palestra .eme-calendar-table{background:#fff;color:#4f4f4f;}
 #palestra .month_name{background: #a1146d;text-transform: uppercase;color:#fff;font-weight: 400;}
@@ -166,7 +168,7 @@ li.linkedin{margin-bottom: 40px;}
 .fundo-mobile{background-color:rgba(0,0,0,0.5);}}
 @media(max-width:767px){
 a.navbar-brand {margin-top: -3%;}
-.carousel-caption{padding: 30px 25px;width: 360px;left: 40%;top: 55%;height: 150px; font-size: 1rem;}.carousel-caption-1{width: 144px; left: 70%;top: 3%;}#noticias {padding: 0rem 2rem;}div#gallery-2{padding-left:0px; margin-left: -15px;}.logo-edgard{margin-top:80px;}}
+.carousel-caption{padding: 30px 25px;width: 360px;left: 40%;top: 55%;height: 150px; font-size: 1rem;}.carousel-caption-1{width: 144px; left: 70%;top: 3%;}#noticias {padding: 0rem 2rem;}div#gallery-2{padding-left:0px; margin-left: -15px;}.logo-edgard{margin-top:80px;}.carousel-caption{padding: 25px 50px;}}
 @media (max-width: 575px){
 #about{padding-right: 15px; padding-left: 15px; }
 #img_padding{width: 100%; }
@@ -205,7 +207,7 @@ div#gallery{margin-left: 10%;}
 	.frase{font-size: 23px; padding: 3rem; margin-bottom: 15px;}
 	.logo-mobile{margin-left:-30px; margin-top: 3%;}
 	.navbar-toggler {margin-bottom: 40px;}
-	#img_padding{background-position: 33% 50%;}
+	#img_padding{background-position: 55% 50%;}
 	#img_comecoou{background-position: 56% 50%;}
 	.ml-5{margin-left:2rem !important;}
 	#tudo_comecou{padding: 3rem 10px;}
