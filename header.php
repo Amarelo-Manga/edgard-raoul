@@ -17,7 +17,7 @@
     <meta name="Keywords" content="Edgard Rauol, Refugiados, brasileiro ajuda refugiado">
     <meta name="robots" content="index, follow">
 	<meta name="google-site-verification" content="RUjNgIf6mtIAocdnEClk1EUg_XwhVyqBFqVwNSmbkZw"/>
-    <title> Edgard Raoul - Um brasileiro entre os refugiados </title>
+    <title> <?php wp_title(''); echo ' | ';  bloginfo( 'name' ); ?> </title>
     <?php wp_head(); ?>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="<?php echo get_template_directory_uri()?>/assets/style.css" rel="stylesheet" type="text/css">
@@ -52,14 +52,10 @@
 		
 		</div>
         <!--Slideshow-->
-        <div class="jumbotron-fluid">
+        <div class="container-fluid" id="slideshow">
             <?php 
                 if(is_home()){
-                    ?>
-                    <div id="slideshow">
-                        <?php echo do_shortcode('[smartslider3 slider=2]');?>
-                    </div>
-                    <?php
+    				 get_template_part('template-parts/header/page', 'banner'); 
                 }//end if is home
             ?>
         </div>
