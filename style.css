@@ -184,6 +184,7 @@ div#navbarNav{margin-left:0px !important;}.menu-item { height: 38px;}.efeito { o
 div#gallery-1{width:100%;}
 iframe{margin-bottom: -30%;}
 .entry-content p{margin-left:0;}
+.carousel-item.active {height: auto;}
 }
 @media(max-width:425px){
 	.frase{font-size: 23px; padding: 3rem;}
@@ -202,6 +203,7 @@ div#gallery{margin-left: 10%;}
 	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 240px;}
 	.logo-mobile{width:65%;}
 	div#gallery{margin-left: 5%;}
+	.carousel-caption{ left: 30%;top: 56%;}
 }
 @media(max-width:320px){
 	.frase{font-size: 23px; padding: 3rem; margin-bottom: 15px;}
@@ -215,6 +217,7 @@ div#gallery{margin-left: 10%;}
 	#noticias {padding: 1rem 2rem;}
 	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {width: 245px;}
 div#gallery-2 {padding-left: 0px;margin-left: -15px;}
+.carousel-caption{ left: 29%;top: 55%;}
 }
 @media(max-width:300px){.frase{font-size: 23px; padding: 2rem; margin-bottom: 15px;}
 .logo-mobile {margin-left: -40px;}button.navbar-toggler.bg-light.collapsed {margin-left: -10px;}
