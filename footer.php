@@ -1,7 +1,7 @@
 <footer class="footer fundo-rodape ">
 	<div class="container">
   <div class="row" style="margin-right:0;"> 
-    <p class="text-white text-center col-lg-5 col-md-5 col-sm-11 ml-5 mt-4" ><span style="font-family: 'FontAwesome';">&#xf0e0;</span> alexa@edvoice.com.br</p>
+    <p class="text-white col-lg-5 col-md-5 col-sm-11 mt-4" ><span style="font-family: 'FontAwesome';">&#xf0e0;</span> alexa@edvoice.com.br</p>
     <p class="text-white text-center col-lg-5 col-md-5 col-sm-11 ml-5 mt-3">APOIO: <a href="http://addressconsulting.com.br/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/assets/img/addressconsulting.png" class="img-fluid" alt="Logo Address Consulting"></a></p>
   </div>
 		</div>
