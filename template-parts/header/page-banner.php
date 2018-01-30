@@ -21,8 +21,9 @@
 		?>    	
 		<div class="carousel-item <?php echo $active; ?>" style="background:url('<?php the_post_thumbnail_url(); ?>');
     background-size: cover;background-repeat: no-repeat; background-position: center;" >
-	      	<div class="container">
+	      	<div class="container-fluid">
 		      	<div class="row">
+		      			<div class="col-lg-11 col-md-12 col-sm-12 position-img"><img src="<?php echo get_template_directory_uri()?>/assets/img/22m.png" alt="22M+ and counting" class="m22"></div>
 		 			<div class="texto col-lg-5 col-md-5 col-sm-12 carousel-caption"><?php the_content(); ?></div>		
 		      	</div>
 	      	</div>
